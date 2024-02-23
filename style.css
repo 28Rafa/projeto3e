@@ -1,3 +1,7 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" ;
+
 :root{
     --cor-de-fundo-lienar-clara:#00FF55;
     --cor-de-fundo-linear-escura:#000000;
@@ -10,11 +14,11 @@
 
 body{
     background-color: #00FF55;
-    
+
 }
 .titulo-principal{
     color:#FFFFFF;
-}
+    
 .botao{
     color: #02E0D5;
     background-color: #145B75;
