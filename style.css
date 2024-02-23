@@ -1,8 +1,13 @@
 :root{
---cor-de-fundo-lienar-clara:#00FF55;
---cor-de-fundo-linear-escura:#000000;
---cor-abas-nao-selecionadas: #145B75;
---cor-letras-geral:#02E0D5;
---cor-abas-selecionadas:#24AEE0;
---cor-letras-aba-selecionada:#000000;
+    --cor-de-fundo-lienar-clara:#00FF55;
+    --cor-de-fundo-linear-escura:#000000;
+    --abas-nao-selecionadas: #145B75;
+    --letras-geral:#02E0D5;
+    --abas-selecionadas:#24AEE0;
+    --letras-aba-selecionada:#000000;
+}
+
+.botao{
+    color: #145B75;
+    
 }
