@@ -5,8 +5,12 @@
     --letras-geral:#02E0D5;
     --abas-selecionadas:#24AEE0;
     --letras-aba-selecionada:#000000;
+    --branco:#FFFFFF;
 }
 
+.titulo-principal{
+    color:#FFFFFF;
+}
 .botao{
     color: #02E0D5;
     background-color: #145B75;
