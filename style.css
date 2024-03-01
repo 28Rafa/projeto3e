@@ -32,3 +32,9 @@ width: 100px;
 margin: 0 auto;
 justify-content: center;
 }
+
+.titulo-principal{
+    flex-direction: left;
+    width: 100%;
+    font-size: 32px;
+}
