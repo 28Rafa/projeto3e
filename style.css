@@ -23,6 +23,7 @@ body{
     border-color: #145B75;
     height: 50px;
     width: 80px;
+    align-items: center;
 }
 
 .conteudo-principal{
