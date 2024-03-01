@@ -21,3 +21,8 @@ body{
     background-color: #145B75;
     border-color: #145B75;
 }
+
+body{
+
+    background-color: linear-gradient(to top, var(--cor-de-fundo-lienar-clara ), var(--cor-de-fundo-linear-escura));
+}
