@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: linear-gradient(to botton, var(--cor-de-fundo-lienar-clara ), var(--cor-de-fundo-linear-escura));
+    background: linear-gradient(to top, #00FF55, #000000 )
 
 }
 .titulo-principal{
