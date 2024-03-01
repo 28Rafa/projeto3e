@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: #00FF55;
+    background: linear-gradient(to botton, var(--cor-de-fundo-lienar-clara ), var(--cor-de-fundo-linear-escura));
 
 }
 .titulo-principal{
@@ -20,9 +20,4 @@ body{
     color: #02E0D5;
     background-color: #145B75;
     border-color: #145B75;
-}
-
-body{
-
-    background: linear-gradient(to top, var(--cor-de-fundo-lienar-clara ), var(--cor-de-fundo-linear-escura));
 }
