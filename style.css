@@ -10,8 +10,9 @@
 }
 
 body{
-    background: linear-gradient(to top, #00FF55, #000000 )
-
+    background: linear-gradient(to top, #00FF55, #000000 );
+    margin: 0;
+    height: 100vh;
 }
 .titulo-principal{
     color:#FFFFFF;
