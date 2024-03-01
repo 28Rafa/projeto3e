@@ -22,3 +22,9 @@ body{
     background-color: #145B75;
     border-color: #145B75;
 }
+
+.conteudo-principal{
+display: flex;
+flex-direction: column;
+height: 20%;
+}
