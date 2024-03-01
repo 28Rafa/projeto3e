@@ -39,3 +39,8 @@ justify-content: center;
     width: 100%;
     font-size: 32px;
 }
+
+.titulo-principal span{
+
+    color: var(#FFFFFF)
+}
