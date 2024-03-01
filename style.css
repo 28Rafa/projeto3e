@@ -28,4 +28,7 @@ display: flex;
 flex-direction: column;
 height: 20%;
 align-items: center;
+max-width: 120px;
+width: 100px;
+margin: 0 auto;
 }
