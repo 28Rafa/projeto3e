@@ -16,6 +16,11 @@ body{
     height: 100vh;
 }
 .titulo-principal{
+    color: #FFFFFF;
+
+}
+.botao{
+
         position: relative;
         display: inline-block;
         padding: 15px 20px;
@@ -29,19 +34,19 @@ body{
         margin-right: 50px;
         border: 2px solid #fd0018;
         border-radius:50px;
-      }
-      .titulo-principal:hover{
+      
+      .botao:hover{
         background: #fd0018;
         color: #000;
         box-shadow: 0 0 8px #fd0018, 0 0 35px #fd0018, 0 0 60px #fd0018;
       }
-      .titulo-principal:active{
+      .botao:active{
          color:#fd0018; 
          background: #000000;
       }
+    }
 
 
-.botao{
     font-family:"Chakra Peth";
     color: #02E0D5;
     background-color: #145B75;
