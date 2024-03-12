@@ -21,23 +21,30 @@ body{
 }
 .botao{
 
-    font-family:"Chakra Peth";
-    color: #02E0D5;
-    background-color: #145B75;
-    border-color: #145B75;
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-    font-size: 18px;
-    align-items: center;
-    width: 100%;
-    border-bottom: 4px solid var(--abas-selecionadas);
-    border-left: 2px solid var(--abas-selecionadas);
-    border-right: 2px solid var(--abas-selecionadas);
-    border-top: none;
-}
-
-
+    
+        position: relative;
+        display: inline-block;
+        padding: 15px 20px;
+        margin: 40px 0;
+        color:#0aa8e6;
+        font-family:'open_sansbold';
+        text-decoration: none;
+        transition: 0.4s;
+        letter-spacing: 4px;
+        overflow: hidden;
+        margin-right: 50px;
+        border: 2px solid #0aa8e6;
+        border-radius:50px;
+      }
+      .botao:hover{
+        background: #0aa8e6;
+        color: #000;
+        box-shadow: 0 0 10px #0aa8e6, 0 0 40px #0aa8e6, 0 0 70px #0aa8e6;
+      }
+      .botao:active{
+         color:#0aa8e6; 
+         background: #000000;
+      }
 
 
 .botao:first-child{
@@ -48,10 +55,6 @@ body{
 display: block;
 }
 
-.botao:hover{
-    background-color: var(--abas-selecionadas);
-    color: #000000;
-}
 
 @media screen and (min-width: 768px){
     .botoes{
