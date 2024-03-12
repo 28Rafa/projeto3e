@@ -47,21 +47,7 @@ body{
     }
 
 
-    font-family:"Chakra Peth";
-    color: #02E0D5;
-    background-color: #145B75;
-    border-color: #145B75;
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-    font-size: 18px;
-    align-items: center;
-    width: 100%;
-    border-bottom: 4px solid var(--abas-selecionadas);
-    border-left: 2px solid var(--abas-selecionadas);
-    border-right: 2px solid var(--abas-selecionadas);
-    border-top: none;
-}
+
 
 .botao:first-child{
     border-radius: 40px 40px 0 0;
