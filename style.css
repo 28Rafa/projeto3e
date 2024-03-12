@@ -55,7 +55,7 @@ body{
         box-shadow: 0 0 10px #0aa8e6, 0 0 40px #0aa8e6, 0 0 70px #0aa8e6;
       }
       .botao:active{
-         color:#0aa8e6; 
+         color:#e60a0a; 
          background: #000000;
       }
 
