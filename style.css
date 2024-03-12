@@ -1,3 +1,4 @@
+@import url(file:///tmp/guest-wsaqus/%C3%81rea%20de%20Trabalho/projeto3e-main/index.html);
 
 :root{
     --cor-de-fundo-lienar-clara:#00FF55;
@@ -18,11 +19,22 @@ body{
     color:#FFFFFF;
 }
 .botao{
+    font-family:"Chakra Peth";
     color: #02E0D5;
     background-color: #145B75;
     border-color: #145B75;
-  
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--abas-selecionadas);
+    border-left: 2px solid var(--abas-selecionadas);
+    border-right: 2px solid var(--abas-selecionadas);
+    border-top: none;
 }
+
 
 .botao:hover{
     background-color: var(--abas-selecionadas);
