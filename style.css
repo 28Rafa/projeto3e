@@ -45,9 +45,9 @@ body{
         transition: 0.2s;
         letter-spacing: 4px;
         overflow: hidden;
-        margin-right: 50px;
+        margin-right: 0px;
         border: 2px solid #0aa8e6;
-        border-radius:50px;
+        border-radius:5px;
       }
       .botao:hover{
         background: #0aa8e6;
