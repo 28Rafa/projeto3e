@@ -61,6 +61,7 @@ body{
         }
 
 
+
 .botao:first-child{
     border-radius: 40px 40px 0 0;
 }
@@ -109,6 +110,18 @@ justify-content: center;
     background-image: -moz-linear-gradient(left,#ea1111,#ff9900,#c8ff00,#00ff22,#00eeff,#0004ff,#ae00ff,#ff00dd,#ff0000);
     background-image: -ms-linear-gradient(left,#ea1111,#ff9900,#c8ff00,#00ff22,#00eeff,#0004ff,#ae00ff,#ff00dd,#ff0000);
     background-image: -o-linear-gradient(left,#ea1111,#ff9900,#c8ff00,#00ff22,#00eeff,#0004ff,#ae00ff,#ff00dd,#ff0000);
+
+    /* @keyframes duration | easing-function | delay |
+iteration-count | direction | fill-mode | play-state | name */
+animation: 3s ease-in 1s 2 reverse both paused slidein;
+
+/* @keyframes duration | easing-function | delay | name */
+animation: 3s linear 1s slidein;
+
+/* two animations */
+animation:
+  3s linear slidein,
+  3s ease-out 5s slideout;
 
 }
 
