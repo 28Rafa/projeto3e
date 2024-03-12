@@ -39,7 +39,7 @@ body{
         display:block;
         padding: 1px 1,5px;
         margin: 0px 0;
-        color:#0aa8e6;
+        color:#e60a0a;
         font-family:'open_sansbold';
         text-decoration: none;
         transition: 0.4s;
@@ -55,7 +55,7 @@ body{
         box-shadow: 0 0 10px #0aa8e6, 0 0 40px #0aa8e6, 0 0 70px #0aa8e6;
       }
       .botao:active{
-         color:#e60a0a; 
+         color:#0aa8e6; 
          background: #000000;
       }
 
