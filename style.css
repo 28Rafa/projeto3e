@@ -35,14 +35,14 @@ body{
     border-top: none;
 
 
-        position: relative;
-        display: inline-block;
+        position: center;
+        display:block;
         padding: 15px 20px;
         margin: 40px 0;
         color:#0aa8e6;
         font-family:'open_sansbold';
         text-decoration: none;
-        transition: 0.4s;
+        transition: 0.2s;
         letter-spacing: 4px;
         overflow: hidden;
         margin-right: 50px;
