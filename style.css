@@ -35,6 +35,9 @@ body{
     border-top: none;
 }
 
+.botao:first-child{
+    border-radius: 40px 40px 0 0;
+}
 
 .botao:hover{
     background-color: var(--abas-selecionadas);
