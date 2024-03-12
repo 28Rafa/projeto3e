@@ -98,12 +98,7 @@ justify-content: center;
     flex-direction: left;
     width: 100%;
     font-size: 32px;
-
     
-}
-
-.titulo-principal span{
-
         font-size:36px;
         -webkit-background-clip: text;
         color: white;
@@ -114,5 +109,11 @@ justify-content: center;
         background-image: -moz-linear-gradient(left,#ea8711,#d96363,#73a6df,#9085fb,#52ca79);
         background-image: -ms-linear-gradient(left,#ea8711,#d96363,#73a6df,#9085fb,#52ca79);
         background-image: -o-linear-gradient(left,#ea8711,#d96363,#73a6df,#9085fb,#52ca79);
+      
     
+}
+
+.titulo-principal span{
+
+    color: var(#FFFFFF)
 }
