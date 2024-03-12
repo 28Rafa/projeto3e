@@ -21,7 +21,20 @@ body{
 }
 .botao{
 
-    
+    font-family: 'chakra Peth', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px ;
+    border-left: 2px ;
+    border-right: 2px ;
+    border-top: none;
+
+
         position: relative;
         display: inline-block;
         padding: 15px 20px;
@@ -54,7 +67,10 @@ body{
 .botoes{
 display: block;
 }
-
+.botao:hover{
+    background-color: var(--abas-selecionadas);
+    color: #000000;
+}
 
 @media screen and (min-width: 768px){
     .botoes{
