@@ -1,11 +1,11 @@
 :root{
-    --cor-de-fundo:#ffe58f;
-    --cor-texto:#000000;
-    --cor-ativa:#ffee01;
-    --cor-inativo:#ffe15b;
-    --cor-aba:#fffd7c;
-    --cor-borda:#e2c231;
-    --cor-ativado:#000000;
+    --cor-de-fundo:#000000;
+    --cor-texto:#ffffff;
+    --cor-ativa:#01b7ff;
+    --cor-inativo:#5b87ff;
+    --cor-aba:#0099ff;
+    --cor-borda:#316fe2;
+    --cor-ativado:#ffffff;
 }
 body{
     background-color: var(--cor-de-fundo);
