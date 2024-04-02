@@ -25,11 +25,7 @@ body{
 .titulo-principal span{
     flex-direction: left; width: 100%; font-size: 32px; font-size:36px; -webkit-background-clip: text; color: white; -webkit-text-fill-color: transparent; background-color:#FFFFFF; background-image: -webkit-linear-gradient(left,#ea1111,#ff9900,#c8ff00,#00ff22,#00eeff,#0004ff,#ae00ff,#ff00dd,#ff0000); background-image: -moz-linear-gradient(left,#ea1111,#ff9900,#c8ff00,#00ff22,#00eeff,#0004ff,#ae00ff,#ff00dd,#ff0000); background-image: -ms-linear-gradient(left,#ea1111,#ff9900,#c8ff00,#00ff22,#00eeff,#0004ff,#ae00ff,#ff00dd,#ff0000); background-image: -o-linear-gradient(left,#ea1111,#ff9900,#c8ff00,#00ff22,#00eeff,#0004ff,#ae00ff,#ff00dd,#ff0000); }
 .titulo-principal{
-    text-align: left;
-    width: 100%;
-    font-size: 32px;
-    
-    }
+    flex-direction: left; width: 100%; font-size: 32px; font-size:36px; -webkit-background-clip: text; color: white; -webkit-text-fill-color: transparent; background-color:#FFFFFF; background-image: -webkit-linear-gradient(left,#ea1111,#ff9900,#c8ff00,#00ff22,#00eeff,#0004ff,#ae00ff,#ff00dd,#ff0000); background-image: -moz-linear-gradient(left,#ea1111,#ff9900,#c8ff00,#00ff22,#00eeff,#0004ff,#ae00ff,#ff00dd,#ff0000); background-image: -ms-linear-gradient(left,#ea1111,#ff9900,#c8ff00,#00ff22,#00eeff,#0004ff,#ae00ff,#ff00dd,#ff0000); background-image: -o-linear-gradient(left,#ea1111,#ff9900,#c8ff00,#00ff22,#00eeff,#0004ff,#ae00ff,#ff00dd,#ff0000); }
 .botao{
     font-family: "Archivo Black", sans-serif;
     background-color: var(--cor-borda);
