@@ -1,5 +1,5 @@
-const botoes = document.querySelectorAll(".botao");
-const textos = document.querySelectorAll(".conteudo-principal");
+const botoes = document.querySelectorAll("botao");
+const textos = document.querySelectorAll("conteudo-principal");
 
 for (let i=0; i<botoes.length; i++) {
     botoes [i].onclick = function(){
