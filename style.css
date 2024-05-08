@@ -1,86 +1,131 @@
+
+
+
 :root{
-    --cor-de-fundo:#000000b2;
-    --cor-texto:#ffffff;
-    --cor-ativa:#01b7ff;
-    --cor-inativo:#5b87ff;
-    --cor-aba:#0099ff;
-    --cor-borda:#316fe2;
-    --cor-ativado:#ffffff;
+    --cor-de-fundo:#983bb3;
+    --cor-texto:#ff9dff;
+    --botao-ativo:#b254c6;
+    --botao-inativo:#7b3a8a;
+    --texto-simples:#FFFFFF;
+
+
 }
 body{
     background-color: var(--cor-de-fundo);
-    font-family: "Archivo Black", sans-serif;
+}
+
+.botao{
+    color: var(--texto-simples);
+    background-color: var(--botao-inativo);
+    border-color: var(--botao-ativo);
+    font-family: "Shadows Into Light", cursive;
     font-weight: 400;
     font-style: normal;
-  }
-  .conteudo-principal{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-}
-.titulo-principal span{
-    color: var(--cor-aba);
-}
-.titulo-principal{
-    flex-direction: left; width: 100%; font-size: 32px; font-size:36px; -webkit-background-clip: text; color: white; -webkit-text-fill-color: transparent; background-color:#FFFFFF; background-image: -webkit-linear-gradient(left,#ea1111,#ff9900,#c8ff00,#00ff22,#00eeff,#0004ff,#ae00ff,#ff00dd,#ff0000); background-image: -moz-linear-gradient(left,#ea1111,#ff9900,#c8ff00,#00ff22,#00eeff,#0004ff,#ae00ff,#ff00dd,#ff0000); background-image: -ms-linear-gradient(left,#ea1111,#ff9900,#c8ff00,#00ff22,#00eeff,#0004ff,#ae00ff,#ff00dd,#ff0000); background-image: -o-linear-gradient(left,#ea1111,#ff9900,#c8ff00,#00ff22,#00eeff,#0004ff,#ae00ff,#ff00dd,#ff0000); }
-.botao{
-    font-family: "Archivo Black", sans-serif;
-    background-color: var(--cor-borda);
-    color:var(--cor-texto);
-    display: flex;
-    justify-content: center;
-    padding: 1em;
     font-size: 18px;
-    align-items: center;
     width: 100%;
-    border-bottom: 4px solid var(--cor-ativa);
-    border-left: 2px solid var(--cor-ativa);
-    border-right: 2px solid var(--cor-ativa);
+    justify-content: center;
+    align-self: auto;
+    padding: 1em;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
     border-top: none;
-    
 }
+
 .botao:first-child{
-    border-radius: 40px 40px 0 0;
+  border-radius: 40px 40px 0px 0px;
 }
+
 .botoes{
-    display: flex;
+ display: block;
 }
+
 .ativo{
-    background-color: var(--cor-ativa);
-    border-bottom: 4px solid var(--cor-ativado);
+  background-color: var(--botao-ativo);
+  border-bottom: 4px solid var(--cor-texto);
 }
+
+.conteudo-principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .abas-textos{
-    background-color: var(--cor-inativo);
-    padding: 40px;
-    border-radius: 0 0 40px 40px;
+background-color: var(--cor-de-fundo);
+padding: 40px;
+border-radius: 40px 40px 40px 40px;
+font-family: "Shadows Into Light", cursive;
 }
+
 .aba-conteudo.ativo{
-    display: block;
+display: block;
 }
+
 .aba-conteudo{
-    display: none;
+display: none;
 }
+
 .aba-conteudo-titulo-principal{
-    font-size: 28px;
-    text-align: center;
+font-size: 28px;
+text-align: center;
 }
+
 .aba-conteudo-titulo-secundario{
-    text-align: center;
-    color: var(--cor-borda);
-    text-transform: uppercase;
+text-align: center;
+color: var(--cor-texto);
+text-transform: uppercase;
 }
-@media screen and (min-width: 768px) {
-    .botoes{
-        display: flex;
-    }
-    .botao:first-child{
-        border-radius: 40px 0 0 0;
-    }
-    .botao:last-child{
-        border-radius: 0 40px 0 0;
-    }
+
+@media screen and (min-width: 768px){
+  .botoes{
+    display: flex;
+  }
+
+  .botao:first-child{
+    border-radius: 40px 0px 0px 0px;
+  }
+
+  .botao:last-child{
+    border-radius: 0px 40px 0px 0px;
+  }
+  
 }
+
+.titulo-principal{
+
+    font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+    background-image: linear-gradient(
+    -225deg,
+    #ff595e 0%,
+    #ffca3a 29%,
+    #8ac926 67%,
+    #1982c4 88%,
+    #6a4c93 100%
+
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
